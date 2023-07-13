@@ -142,3 +142,34 @@ main{
 .task .actions .delete{
     color: red;
 }
+@media screen and (max-width:470px) {
+    body{
+        min-height: 100vh;
+    }
+    #tasks .task{
+        padding: 0.5rem;
+        font-size: 1rem
+    }
+    .task .actions button {
+        font-size: 1rem;
+    }
+    .task .actions .edit{
+        font-size: 1rem;
+    }
+    #new-task-input{
+        flex: 0.30 0.30 0%;
+        font-size: 1rem;
+    }
+    #new-task-submit{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:419px) {
+   
+    #new-task-submit{
+        position: relative;
+        top: 3.5rem;
+        right: 6rem;
+    }
+    
+}
